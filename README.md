@@ -34,7 +34,7 @@ Ryan M<br />
 
 ### About Our Project
 In this project, we are downloading and pre-processing biological activity data from the ChEMBL database in order to perform computational drug discovery for cancer treatments, specifically mast cell cancer, or mastocytosis. The dataset we are compiling is composed of molecular compounds that have been biologically tested for their activity towards specific proteins of interest in target organisms. The two proteins of interest we are focusing on are tryptase and PDL1, which are both significant markers for mast cell cancer. Our machine learning project is going to be focused on finding the best combination of compounds to create new pharmaceutical therapies to treat this aggressive cancer. 
-This is a photo made by our very own Cheyenne Martin! Check out the published paper here: 
+Check out the published paper here, which Cheyenne Martin has contributed to significantly: 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5812326/
 
 Most-to-All patients diagnosed with Mast Cell Leukemia (the most aggressive mast cell cancer) only have a life expentacy of 5 months on average.
