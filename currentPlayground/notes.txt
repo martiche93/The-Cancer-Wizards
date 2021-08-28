@@ -1,0 +1,24 @@
+TODOs
+
+1. Build the project
+    - creating the folder structure
+    - adding files
+    - connecting files
+
+2. Navbar
+    - 3 links and a name
+        - "Home"
+        - Google collab notebook for "Statistics"
+        - Machine learning models x6 "ML Models"
+
+3. Portfolio item grid
+    - images
+    - titles
+    - descriptions
+    - animations
+    - javascript
+
+4. Build out model page
+    - images with clickable links
+        - split column layout?
+        - content
