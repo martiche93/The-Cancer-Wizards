@@ -1,0 +1,104 @@
+/*Body*/
+body {
+    background-size: cover;
+    background-color: lightslategray
+}
+
+/* Navbar*/
+.navbar {
+    max-height: 45px;
+    background-color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.navigation .navbar-brand {
+    color: white;
+    margin-left: 0px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: lightslategray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar-brand:hover {
+    color: white;
+    background-color: darkslategray
+}
+.active, .dropdown-menu .dropdown-item:active a:hover {
+    color: white;
+    background-color: lightslategray;
+}
+.dropdown-item {
+    color: darkslategray;
+    background-color: white;
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    color: white;
+    background-color: darkslategray;
+} 
+.nav-link:hover {
+    color: white;
+    background-color: darkslategray;
+}
+a {
+    color: slategray;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*Main Content*/
+#main_image {
+    float: left;
+    margin: 0 0 0 15px;
+}
+.title {
+    color: slategray;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box {
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+}
+.container {
+    color: darkslategray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4 {
+    text-align: center;
+}
+a:hover img {
+    border: 5px solid darkslategray;
+    background-color: darkslategray;
+}
+/* Small Screen Adjustments*/
+@media(max-width: 970px) {
+    body {
+        background-size: cover;
+        background-color: white;
+    }
+    .navbar-expand-lg {
+    background-color:darkslategray !important;
+    }
+    .navbar {
+      max-height: none;
+      padding: 10px;
+      color: darkslategray !important;
+      background-color: darkslategray;
+      text-overflow: none;
+    }
+    .active, .dropdown-menu .dropdown-item:active {
+        color: lightslategray !important;
+        background-color: white !important;
+    }
+    .navbar-brand {
+      padding: 10px !important;
+    }
+    button {
+      margin-right: 5px;
+      max-width: 75px;
+      display: block;
+      border-width: 3px !important;
+      border-color: white !important;
+    }
+  }

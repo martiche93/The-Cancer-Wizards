@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Latitude Analysis Dashboard</title>
+
+        <!--Bootstrap and Stylesheet-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel = "stylesheet" href = "style.css">
+        
+    </head>
+
+    <body>
+        <!--Navigation-->
+        <div class = "navigation">
+            <nav class = "navbar navbar-expand-lg">
+                <a class = "navbar-brand" href = "index.html">Latitude</a>
+                <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarNavDropdown" aria-controls = "navbarNavDropdown" aria-expanded = "false" aria-label = "Toggle Navigation">
+                    <span class = "navbar-toggler-icon"></span>
+                </button>
+
+                <!--Collapse navbar-->
+                <div class = "collapse navbar-collapse justify-content-end" id = "navbarNavDropdown">
+                    <ul class = "navbar-nav ms-auto">
+                        <li class = "nav-item dropdown">
+                            <a class = "nav-link dropdown-toggle" href = "#" id = "navbarDropdownMenu" role = "button" data-toggle = "dropdown" aria-haspopup = "true" aria-expanded = "false">
+                                Plots
+                            </a>
+                            <div class = "dropdown-menu" aria-labelledby = "navbarDropdownMenu">
+                                <a class = "dropdown-item" href = "Max_Temp.html">Max Temperature</a>
+                                <a class = "dropdown-item" href = "Humidity.html">Humidity</a>
+                                <a class = "dropdown-item" href = "Cloudiness.html">Cloudiness</a>
+                                <a class = "dropdown-item" href = "Wind_Speed.html">Wind Speed</a>
+                            </div>
+                        </li>
+                        <!-- Additional Links-->
+                        <li class = "nav-item justify-content-end">
+                            <a class = "nav-link" href = "Comparisons.html">Comparisons</a>
+                        </li>
+                        <li class = "nav-item justify-content-end">
+                            <a class = "nav-link" href = "Data.html">Data</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!--Page Content-->
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-lg-7 col-md-12">
+                    <!--Main Page Content-->
+                    <div class = "box">
+                        <h2 class = "title">Humidity</h2>
+                        <hr>
+                        <img src = "Resources/assets/images/Fig2.png" id = "main_image"; width = 100%;>
+                        <p> Humidity levels are not directly alone impacted by the Latitude of a City.
+                            More interestingly, however, is that though the Humidity is higher in the Southern 
+                            Hemisphere when closer to the Equator, it trends in the opposite for those Cities 
+                            in the Northern Hemisphere. 
+                        </p>
+                    </div>
+                </div>
+                <div class = "col-lg-5 col-md-12">
+                    <!--Visualizations Content-->
+                    <div class = "box">
+                        <h3 class = "title">Visualizations</h3>
+                        <hr>
+                        <div class="row">
+                            <div class="col-3 col-md-6">
+                                <a href="Max_Temp.html"><img src="Resources\assets\images\Fig1.png" width="100%"  alt="Max_Temp"></a> 
+                            </div>
+                            <div class="col-3 col-md-6">
+                                <a href="Humidity.html"><img src="Resources\assets\images\Fig2.png" width="100%" alt="Humidity"></a>
+                            </div>
+                       
+                            <div class="col-3 col-md-6">
+                                <a href="Cloudiness.html"><img src="Resources\assets\images\Fig3.png" width="100%"  alt="Cloudiness"></a>
+                            </div>
+    
+                            <div class="col-3 col-md-6">
+                                <a href="Wind_Speed.html"><img src="Resources\assets\images\Fig4.png"width="100%"  alt="Wind_Speed"></a>
+                            </div>  
+                        </div>                  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- JS links-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
