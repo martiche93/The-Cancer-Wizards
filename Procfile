@@ -1,1 +1,0 @@
-web: gunicorn the-cancer-wizards-app.app:app
