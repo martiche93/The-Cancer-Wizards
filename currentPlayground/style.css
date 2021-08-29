@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr; /* create template columns using 1 fractional unit */
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em; /* default is 1em so this is 90% of the default */
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent; /* not going to see this */
+    transition: border-bottom 0.5s; /* first animation */
+}
+
+/* Setting color to hyperlinks */
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s; /* second animation */
+}
+
+/* Using pseudo states to create a hovering underline on the hyperlinks */
+/* Default underlines are ugly ;( */
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+/* Now the text changes color due to hover animation */
+.nav-link-wrapper a:hover {
+    color: black;
+}
