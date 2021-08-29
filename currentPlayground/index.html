@@ -13,20 +13,80 @@
           <a href="index.html">home</a>
         </div>
         <div class="nav-link-wrapper">
-          <a href="analysis.html">analysis</a>
-        </div>
-        <div class="nav-link-wrapper">
-          <a href="conclusion.html">conclusions</a>
+          <a href="analysis.html">about</a>
         </div>
       </div>
 
       <div class="right-side">
-        <div class="brand">
-          <div>BREAST CANCER DASHBOARD</div>
+        <div class="nav-link-wrapper">
+          <a href="dashboard.html">BREAST CANCER DASHBOARD</a>
         </div>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="portfolio-items-wrapper">
+        <!-- Image One with link to Google collab notebook with analysis -->
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(Images/portfolilo1.jpg)"></div>
+
+            <div class="img-text-wrapper">
+              <div class="logo-wrapper">
+                <img src="Images/logos/analysis.png">
+              </div>
+
+              <div class="subtitle">
+                little blurb about the Google collab notebook... Coming soon...
+              </div>
+            </div>
+        </div>
+
+        <!-- Image Two with link to ML Models html -->
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(Images/portfolio2.jpg)" alt="machine learning image"></div>
+
+            <div class="img-text-wrapper">
+              <div class="logo-wrapper">
+                <img src="Images/logos/machinelearning.png">
+              </div>
+
+              <div class="subtitle">
+                little blurb about the ML Models... Coming soon...
+              </div>
+            </div>
+        </div>
+
+        <!-- Image Three with link to Conclusions about the best ML Model -->
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(Images/portfolio3.jpg)" a;t="conclusions image"></div>
+
+            <div class="img-text-wrapper">
+              <div class="logo-wrapper">
+                <img src="Images/logos/conclusions.png">
+              </div>
+
+              <div class="subtitle">
+                little blurb about the Conclusions... Coming soon...
+              </div>
+            </div>
+        </div>
+
       </div>
     </div>
 
   </div>
 </body>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+    portfolioItems.forEach(portfolioItem => {
+      portfolioItem.addEventListener('mouseover', () => {
+          portfolioItem.childNodes[1].classList.add('img-darken');
+      })
+
+        portfolioItem.addEventListener('mouseout', () => {
+          portfolioItem.childNodes[1].classList.remove('img-darken');
+      })
+    })
+</script>
 </html>

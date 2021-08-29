@@ -1,3 +1,5 @@
+/* Master Styles */
+
 body {
     margin: 0px;
 }
@@ -7,6 +9,7 @@ body {
     grid-template-columns: 1fr; /* create template columns using 1 fractional unit */
 }
 
+/* Nav Styles */
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
@@ -45,4 +48,57 @@ body {
 /* Now the text changes color due to hover animation */
 .nav-link-wrapper a:hover {
     color: black;
+}
+
+/* Portfolio Styles */
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* three full-sized columns */
+}
+
+.portfolio-item-wrapper {
+    position: relative; /* allows flexibility with position for text and images, required for nested elements */
+}
+
+.portfolio-img-background {
+    height: 350px;
+    width: 100%;
+    background-size: cover; /* for images of different sizes, cropping images to sit nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper {
+    position: absolute; /* absolute forces where we want it to go, but must have relative set first */
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo-wrapper img {
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.img-text-wrapper .subtitle {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle {
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+.img-darken {
+    transition: 0.7s;
+    filter: brightness(10%);
 }
