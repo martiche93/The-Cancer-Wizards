@@ -1,40 +1,29 @@
-# The-Cancer-Wizards
+Machine Learning Project
 
-Collaborators:<br />
-Ricci Sandoval<br />
-Carley Engleson<br />
-Cheyenne Martin<br />
-Ryan M<br />
+Carley Engleson
+Cheyenne Martin
+Ricci Sandoval
+Ryan M
 
-## Demystifying ML
-## Final Project Requirements:
-1. Find a problem worth solving, analyzing, or visualizing.
-2. Use ML in the context of technologies learned.
-3. You must use: Scikit-Learn and/or another machine learning library.
-4. You must use at least TWO of the following:
-  - Python Pandas
-  - Python Matplotlib
-  - HTML/CSS/Bootstrap
-  - JavaScript Plotly
-  - JavaScript D3.js
-  - JavaScript Leaflet
-  - SQL Database
-  - MongoDB Database
-  - Google Cloud SQL
-  - Amazon AWS
-  - Tableau
-5. Host application using Heroku or a tool of your choice
-6. Prepare a 15-minute data deep-dive or infrastructure walkthrough that shows machine learning in the context of what we've already learned.
-7. Example projects:
-  - Create a front-end interface that maps to an API to "smarten" the algorithm.
-  - Perform a deep dive of existing data using machine learning.
-  - Create a visualization that continues to learn where clusters lie based on ML (Use D3 or Plotly to change the visualization).
-  - Create an idea with mock data that stimulates how machine learning might be used.
-  - Create an analysis of existing data to make a prediction, classification, or regression.
+Key questions - Can we construct a machine learning model to predict whether breast cancer is benign or malignant based on multiple points of measurement data collected from histopathologic samples of cell nuclei? 
 
-### About Our Project
-In this project, we are downloading and pre-processing biological activity data from the ChEMBL database in order to perform computational drug discovery for cancer treatments, specifically mast cell cancer, or mastocytosis. The dataset we are compiling is composed of molecular compounds that have been biologically tested for their activity towards specific proteins of interest in target organisms. The two proteins of interest we are focusing on are tryptase and PDL1, which are both significant markers for mast cell cancer. Our machine learning project is going to be focused on finding the best combination of compounds to create new pharmaceutical therapies to treat this aggressive cancer. 
-Check out the published paper here, which Cheyenne Martin has contributed to significantly: 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5812326/
+Our dataset:
+https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
 
-Most-to-All patients diagnosed with Mast Cell Leukemia (the most aggressive mast cell cancer) only have a life expentacy of 5 months on average.
+We will be retrieving and preprocessing data from the Breast Cancer Wisconsin (Diagnostic) Data Set, which uses key features of breast mass cell nuclei taken from fine needle aspiration biopsies. Our goal is to find the best machine learning model (which would have the highest testing data accuracy percentage) for this predictive analysis. The models we will be using are:
+Logistic Regression
+Support Vector Machines (SVM) before & after hypertuning the model
+Kernel SVM
+Random Forest Classifier
+
+Here’s how our models did by descending accuracy percentages & confusion matrix results:
+
+Logistic Regression → 98.6%, 0 FP, 2 FN (overall best model)
+
+Hypertuned Support Vector Machines (SVM) → 97.9%, 5 FP, 1 FN (had the highest overprediction of malignancy, but had very low underprediction of malignancy)
+
+Random Forest Classifier → 97.2%, 1 FP, 3 FN (tended to overall underpredict malignancy)
+
+Kernel SVM → 96.5%, 3 FP, 2 FN (better on avoiding underpredicting malignancy)
+
+Support Vector Machines (SVM) → 95.8%, 4 FP, 2 FN (2nd highest overprediction of malignancy, but still had low underprediction of malignancy)
