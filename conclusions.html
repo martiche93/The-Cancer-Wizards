@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>conclusions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="index.html">home</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="about.html"><strong>about</strong></a>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="nav-link-wrapper">
+          <a href="https://public.tableau.com/app/profile/cheyenne6868/viz/final_project_dashboard_16301744373520/Dashboard1?publish=yes">BREAST CANCER DASHBOARD</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="two-column-wrapper">
+          <div class="profile-image-wrapper">
+            <img src="Images/profile1.jpg">
+          </div>
+          <div class="profile-content-wrapper">
+            <h1>conclusions for the best ML model</h1>
+
+            <h4>Here’s how our models did by descending accuracy percentages & confusion matrix results:</h4><br />
+                Our dataset:
+                https://www.kaggle.com/uciml/breast-cancer-wisconsin-data<br /><br />
+                
+                <ol>
+                    <li>Logistic Regression → 98.6%, 0 FP, 2 FN (overall best model)</li>
+                    <li>Hypertuned Support Vector Machines (SVM) → 97.9%, 5 FP, 1 FN (had the highest 
+                        overprediction of malignancy, but had very low underprediction of malignancy)</li>
+                    <li>Kernel SVM → 96.5%, 3 FP, 2 FN (better on avoiding underpredicting malignancy)</li>
+                    <li>Support Vector Machines (SVM) → 95.8%, 4 FP, 2 FN (2nd highest overprediction 
+                        of malignancy, but still had low underprediction of malignancy)</li>
+                </ol>  
+          </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
