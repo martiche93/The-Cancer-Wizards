@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>model one</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper active-nav-link">
+          <a href="index.html">home</a>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="nav-link-wrapper">
+          <a href="https://public.tableau.com/app/profile/cheyenne6868/viz/final_project_dashboard_16301744373520/Dashboard1?publish=yes">BREAST CANCER DASHBOARD</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="two-column-wrapper">
+          <div class="profile-image-wrapper">
+            <img src="Images/kernel.png">
+          </div>
+          <div class="profile-content-wrapper">
+            <h1>Kernel SVM Model</h1>
+            <h3>Pre-processing steps for each model:</h3>
+
+            <p>
+                <ul>
+                    <li>Split data into X = data & y = diagnosis<br /></li>
+                    <li>Label encoded the y data to change from string (B for benign, M for malignant) to int (0
+                        for benign, 1 for malignant)<br /></li>
+                    <li>Scaled the X data using StandardScaler<br /></li>
+                    <li>Split the datasets into training & testing using train_test_split with random_state = 42<br /></li>
+                    <li>From sklearn.svm import SVC (kernel = “rbf”)<br /></li>
+                    <li>Fit the training data to the model<br /></li>
+                    <li>Testing Data Score: 0.965<br /></li>
+                    <li>Made predictions for y values<br /></li>
+                    <li>Created confusion matrix to compare predictions to actual<br /></li>
+                    <li>Confusion matrix shows that this model tended to slightly overpredict malignancy, but
+                        still had a low number of False Negatives<br /></li>
+                </ul>
+            </p>
+
+            <h3>Benign = 0 & Malignant = 1</h3>
+            <h4>The above confusion matrix visually shows how our model did:</h4>
+            <p>86 True Positives = True Benign Tumors<br />
+            3 False Positives = Predicted to be Malignant Tumors, but actually Benign<br />
+            2 False Negative = Predicted to be Benign Tumors, but actually Malignant<br />
+            52 True Negatives = True Malignant Tumors</p>
+          </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
