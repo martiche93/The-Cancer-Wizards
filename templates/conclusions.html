@@ -6,17 +6,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="{{url_for('static',filename='main.css')}}"/>
 </head>
 <body>
   <div class="container">
     <div class="nav-wrapper">
       <div class="left-side">
         <div class="nav-link-wrapper">
-          <a href="index.html">home</a>
+          <a href="{{ url_for('home') }}">home</a>
         </div>
         <div class="nav-link-wrapper">
-          <a href="about.html"><strong>about</strong></a>
+          <a href="{{ url_for('about') }}"><strong>about</strong></a>
         </div>
       </div>
 
@@ -30,7 +30,7 @@
     <div class="content-wrapper">
       <div class="two-column-wrapper">
           <div class="profile-image-wrapper">
-            <img src="Images/profile1.jpg">
+            <img src="{{url_for('static', filename='profile1.jpg')}}">
           </div>
           <div class="profile-content-wrapper">
             <h1>conclusions for the best ML model</h1>
