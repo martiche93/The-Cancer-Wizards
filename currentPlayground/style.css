@@ -1,7 +1,8 @@
 /* Master Styles */
-
 body {
+    font-family: "Lato", sans-serif;
     margin: 0px;
+    background-color: lightsteelblue;
 }
 
 .container {
@@ -34,7 +35,7 @@ body {
 
 /* Setting color to hyperlinks */
 .nav-link-wrapper a {
-    color: #8a8a8a;
+    color: black;
     text-decoration: none;
     transition: color 0.5s; /* second animation */
 }
@@ -48,6 +49,14 @@ body {
 /* Now the text changes color due to hover animation */
 .nav-link-wrapper a:hover {
     color: black;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+    color: black !important;
 }
 
 /* Portfolio Styles */
@@ -82,7 +91,7 @@ body {
 }
 
 .logo-wrapper img {
-    width: 70%;
+    width: 80%;
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -101,4 +110,22 @@ body {
 .img-darken {
     transition: 0.7s;
     filter: brightness(10%);
+}
+
+/* About Page Styles */
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+    width: 90%;
+}
+
+.profile_content-wrapper {
+    padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+    color: lightseagreen;
 }
