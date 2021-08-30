@@ -1,1 +1,1 @@
-FLASK_APP=the-cancer-wizards-app/app.py flask run
+FLASK_APP-=app.py flask run
