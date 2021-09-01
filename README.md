@@ -20,17 +20,17 @@ To run this application locally use the following steps: <br />
   conda activate <your_env_name>
   ```
 * upgrade pip
-```
-pip install --upgrade pip
-```
+  ```
+  pip install --upgrade pip
+  ```
 * install dependencies
-```
-pip install -r requirements.txt
-```
+  ```
+  pip install -r requirements.txt
+  ```
 * run flask app
-```
-sh run.sh
-```
+  ```
+  sh run.sh
+  ```
  
 ## Contributors
 Thanks to the following people who have contributed to this project: <br />
