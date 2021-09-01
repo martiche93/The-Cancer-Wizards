@@ -57,7 +57,6 @@ We retrieved and preprocessed the data from the Breast Cancer Wisconsin (Diagnos
 `Random Forest Classifier`
 
 
-
 ### Here’s how our models did by descending accuracy percentages & confusion matrix results *(FP = false positive, FN = false negative)*:
 
 `Logistic Regression` **→ 98.6%, 0 FP, 2 FN** *(overall best model)*
