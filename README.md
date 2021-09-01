@@ -22,19 +22,11 @@ Please check out all of our hard work on the Heroku app [here](https://the-cance
 
 ### To run this application locally use the following steps:
 
-* Clone repo
+* clone repo
 
-* Create and activate your python virtual environment
-  * `conda activate <your_env_name>`
-  
-* upgrade pip
-  * `pip install --upgrade pip`
-  
-* install dependencies
-  * `pip install -r requirements.txt`
-  
-* run flask app
-  * `sh run.sh`
+* create and activate your python virtual environment
+  ```
+  conda activate <your_env_name>
   ```
   ```
 * upgrade pip
