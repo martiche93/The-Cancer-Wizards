@@ -2,11 +2,11 @@
 
 ## Background
 
-### The Cancer Wizards is a web application built on Python, powered by Flask, and deployed through Heroku. Our main question was:
+The Cancer Wizards is a web application built on Python, powered by Flask, and deployed through Heroku. Our main question was:
 
 **What is the best machine learning model to predict whether breast cancer is benign or malignant based on multiple points of measurement data collected from histopathologic samples of cell nuclei?** 
 
-Please check out all of our hard work [here](https://the-cancer-wizards-app.herokuapp.com/).
+Please check out all of our hard work on the Heroku app [here](https://the-cancer-wizards-app.herokuapp.com/).
 
 
 ## Prerequisites
@@ -25,7 +25,6 @@ Please check out all of our hard work [here](https://the-cancer-wizards-app.hero
 * Clone repo
 
 * Create and activate your python virtual environment
-<<<<<<< HEAD
   * conda activate <your_env_name>
   
 * upgrade pip
@@ -36,7 +35,6 @@ Please check out all of our hard work [here](https://the-cancer-wizards-app.hero
   
 * run flask app
   * sh run.sh
-=======
   ```
   conda activate <your_env_name>
   ```
@@ -71,7 +69,7 @@ We retrieved and preprocessed the data from the Breast Cancer Wisconsin (Diagnos
 `Random Forest Classifier`
 
 
-### Here’s how our models did by descending accuracy percentages & confusion matrix results:
+### Here’s how our models did by descending accuracy percentages & confusion matrix results *(FP = false positive, FN = false negative)*:
 
 `Logistic Regression` **→ 98.6%, 0 FP, 2 FN** *(overall best model)*
 
