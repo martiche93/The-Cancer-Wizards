@@ -42,11 +42,9 @@ Please check out all of our hard work on the Heroku app [here](https://the-cance
   ```
 
 
-## Conclusions
+## Process & Conclusions
 
-**Our dataset:**
-
-[Kaggle](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data )
+### Our dataset: [Kaggle](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data )
 
 We retrieved and preprocessed the data from the Breast Cancer Wisconsin (Diagnostic) Dataset, which uses key features of breast mass cell nuclei taken from fine needle aspiration biopsies. Our goal is to find the best machine learning model (which would have the highest testing data accuracy percentage) for this predictive analysis. The models we will be used were:
 
@@ -57,6 +55,7 @@ We retrieved and preprocessed the data from the Breast Cancer Wisconsin (Diagnos
 `Kernel SVM`
 
 `Random Forest Classifier`
+
 
 
 ### Here’s how our models did by descending accuracy percentages & confusion matrix results *(FP = false positive, FN = false negative)*:
