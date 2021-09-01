@@ -2,16 +2,16 @@
 
 ## Background
 
-The Cancer Wizards is a web application built on Python, powered by Flask, and deployed through Heroku. Our main question was:
+### The Cancer Wizards is a web application built on Python, powered by Flask, and deployed through Heroku. Our main question was:
 
 **What is the best machine learning model to predict whether breast cancer is benign or malignant based on multiple points of measurement data collected from histopathologic samples of cell nuclei?** 
 
-Please check out all of our hard work [here](https://the-cancer-wizards-app.herokuapp.com/)
+Please check out all of our hard work [here](https://the-cancer-wizards-app.herokuapp.com/).
 
 
 ## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+### Before you begin, ensure you have met the following requirements:
 
 * You have installed >= python 3.9
 
@@ -20,7 +20,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Quickstart
 
-To run this application locally use the following steps:
+### To run this application locally use the following steps:
 
 * Clone repo
 
@@ -52,15 +52,6 @@ To run this application locally use the following steps:
   ```
   sh run.sh
   ```
- 
-## Contributors
-Thanks to the following people who have contributed to this project: <br />
-<br />
-[@Carley Engleson](https://github.com/cjengleson)<br />
-[@Cheyenne Martin](https://github.com/martiche93)<br />
-[@Ricci Sandoval](https://github.com/rls1316)<br />
-[@Ryan M](https://github.com/Ryanwm2000)<br />
->>>>>>> a7a0d79e9a5756d8b1d3c6489072faae4972ef4c
 
 
 ## Conclusions
@@ -80,7 +71,7 @@ We retrieved and preprocessed the data from the Breast Cancer Wisconsin (Diagnos
 `Random Forest Classifier`
 
 
-Here’s how our models did by descending accuracy percentages & confusion matrix results:
+### Here’s how our models did by descending accuracy percentages & confusion matrix results:
 
 `Logistic Regression` **→ 98.6%, 0 FP, 2 FN** *(overall best model)*
 
