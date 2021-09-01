@@ -25,18 +25,17 @@ Please check out all of our hard work on the Heroku app [here](https://the-cance
 * Clone repo
 
 * Create and activate your python virtual environment
-  * conda activate <your_env_name>
+  * `conda activate <your_env_name>`
   
 * upgrade pip
-  * pip install --upgrade pip
+  * `pip install --upgrade pip`
   
 * install dependencies
-  * pip install -r requirements.txt
+  * `pip install -r requirements.txt`
   
 * run flask app
-  * sh run.sh
+  * `sh run.sh`
   ```
-  conda activate <your_env_name>
   ```
 * upgrade pip
   ```
