@@ -25,6 +25,7 @@ To run this application locally use the following steps:
 * Clone repo
 
 * Create and activate your python virtual environment
+<<<<<<< HEAD
   * conda activate <your_env_name>
   
 * upgrade pip
@@ -35,6 +36,31 @@ To run this application locally use the following steps:
   
 * run flask app
   * sh run.sh
+=======
+  ```
+  conda activate <your_env_name>
+  ```
+* upgrade pip
+  ```
+  pip install --upgrade pip
+  ```
+* install dependencies
+  ```
+  pip install -r requirements.txt
+  ```
+* run flask app
+  ```
+  sh run.sh
+  ```
+ 
+## Contributors
+Thanks to the following people who have contributed to this project: <br />
+<br />
+[@Carley Engleson](https://github.com/cjengleson)<br />
+[@Cheyenne Martin](https://github.com/martiche93)<br />
+[@Ricci Sandoval](https://github.com/rls1316)<br />
+[@Ryan M](https://github.com/Ryanwm2000)<br />
+>>>>>>> a7a0d79e9a5756d8b1d3c6489072faae4972ef4c
 
 
 ## Conclusions
