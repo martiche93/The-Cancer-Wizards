@@ -8,7 +8,6 @@ This app is hosted on heroku where you can see it [here](https://the-cancer-wiza
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements: <br />
-<br />
 * You have installed >= python 3.9
 * You have installed a python virtial environment management tool i.e. conda or pyenv
 
@@ -16,7 +15,6 @@ Before you begin, ensure you have met the following requirements: <br />
 To run this application locally use the following steps: <br />
 
 * Clone repo
-
 * Create and activate your python virtual environment
   * conda activate <your_env_name>
 * upgrade pip
