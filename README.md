@@ -28,7 +28,6 @@ Please check out all of our hard work on the Heroku app [here](https://the-cance
   ```
   conda activate <your_env_name>
   ```
-  ```
 * upgrade pip
   ```
   pip install --upgrade pip
