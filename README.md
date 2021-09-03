@@ -44,7 +44,8 @@ Please check out all of our hard work on the Heroku app [here](https://the-cance
 
 ## Process & Conclusions
 
-### Our dataset: [Kaggle](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data )
+### Our dataset: [Kaggle](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data)
+    * Cleaned CSV copy [here.](https://machinelearningprojectdata.s3.us-east-2.amazonaws.com/CLEANED_breast_cancer_prediction.csv)
 
 We retrieved and preprocessed the data from the Breast Cancer Wisconsin (Diagnostic) Dataset, which uses key features of breast mass cell nuclei taken from fine needle aspiration biopsies. Our goal is to find the best machine learning model (which would have the highest testing data accuracy percentage) for this predictive analysis. The models we will be used were:
 
